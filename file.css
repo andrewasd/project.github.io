@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+#container
+{
+display: flex;
+flex-direction: column;
+background-color: #25181f;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+
+}
+
+#container >input 
+{
+ width:70%;
+ background-color:white;
+ margin-left: auto;
+ margin-right: auto;
+ border: 0.14em solid #66911d;
+ border-radius: 0.5em;
+ margin-top:4vh;
+ font-size: 3.4em;
+ height: 5vh;
+ padding-left: 1em;
+ font-family: 'Roboto', sans-serif;
+ color :black;
+ font-weight: 100rem;
+ 
+
+}
+
+#logc
+{
+background-color: red;
+
+
+
+}
+
+#regbtn
+{
+    border :0;
+ margin-top: 6vh;   
+background-color:#66911d;
+height: 5vh;
+width:70%;
+margin-left: auto;
+margin-right:auto;
+font-size: 3.6em;
+border-radius: 0.5em;
+font-family: 'Roboto', sans-serif;
+font-weight: 550;
+color:#1e211f;
+
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    width:70% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2em;
+    color:#ddf7dc;
+    font-size: 2.7em;
+}
+
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+     
+    border-bottom: 2px solid white;
+}
+
+#regform
+{
+
+display: flex;
+flex-direction: column;
+
+
+}
+
+#mediasign
+{
+    margin-top: 3vh;   
+    background-color:transparent;
+    height: 5vh;
+    width:70%;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 2.7em;
+    border-radius: 3em;
+    border: 0.14em solid #66911d;
+    color:#ddf7dc;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    
+}
